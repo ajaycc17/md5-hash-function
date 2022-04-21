@@ -114,14 +114,14 @@ void md5(uint8_t *in_msg, size_t in_len)
 
 int main()
 {
-	char *msg = "ajay";
+	char *msg = "12345 ";
 	size_t msg_len = strlen(msg);
 
 	// invoke the md5 function
 	md5(msg, msg_len);
 
 	// hash
-	// printf("Hash: %x%x%x%x\n", A, B, C, D);
+	printf("Hash: %x%x%x%x\n", A, B, C, D);
 	// need to reverse the little endianness
 	uint8_t *temp = (uint8_t *)&A;
 	printf("MD5 Hash: %x%x%x%x", temp[0], temp[1], temp[2], temp[3]);
