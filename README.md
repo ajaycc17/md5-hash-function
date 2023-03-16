@@ -1,16 +1,16 @@
 
-# Implementation of MD5 Hash Function in C
-### Under ECS412(BS Project) - April 2022
+# MD5 Hash function: BS Project- IISERB(2022)
 
-This is a simple implementation of MD5 hash function in C. MD5 hash
-function is not cryptographically secure now, it has already been broken and is used only for local integrity checks and other simple tasks, but it is a great example to understand the concept of hash functions; it introduces message compression using a naive method and then with the help of some non-linear functions on the message, the 128-bit hash for the message is generated. Here, the hash function is implemented in the C programming language for simple string values. You can see the implementation of BLAKE-256 Hash function [here](https://github.com/ajaycc17/blake-256-hash-function).
-
-
+Under the BS project, the working principles of MD5 hash function were studied and used to implement the hash function which can be used to generate hash digests for any string or binary files. MD5 produces 128-bit hash digests. It is not considered as a secure cryptographic hash function anymore and is broken already, MD5 is used for basic checksums and integrity check nowadays. This repository contains both the works combined and uses C programming language for implementation of the function.
 ## Author
 
-- [@ajaycc17](https://www.github.com/ajaycc17)(Ajay Choudhury)
+- [@ajaycc17](https://www.github.com/ajaycc17)
+
+## Under guidance of
+
+- Dr Shashank Singh([IISER Bhopal](https://sites.google.com/view/shashank))
 
 
+## Acknowledgements
 
-## Under Guidance of:
-Dr. Shashank Singh [(IISER Bhopal)](https://sites.google.com/view/shashank).
+ - R. Rivest: [The MD5 Message-Digest Algorithm (1992)](https://www.rfc-editor.org/rfc/pdfrfc/rfc1321.txt.pdf)
